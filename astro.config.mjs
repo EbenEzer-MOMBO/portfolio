@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://github.com/EbenEzer-MOMBO/portfolio.github.io',
-    base: '/',
+    site: 'https://github.com/EbenEzer-MOMBO/portfolio',
+    base: '/portfolio',
 });
