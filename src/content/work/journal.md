@@ -1,12 +1,12 @@
 ---
-title: Sci-Promo
-publishDate: 2023-10-01 00:00:00
+title: Journal universitaire
+publishDate: 2023-11-01 00:00:00
 img: /assets/scipromo.png
 img_alt: Image illustrative.
 description: |
   Développement d'une application ludique éducative pour la promotion de la science.
 tags:
-  - Éducation
+  - Actualité
   - Science
   - Divertissement
 ---
