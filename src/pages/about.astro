@@ -1,8 +1,8 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
 <BaseLayout title="À propos | MOMBO Eben" description="A propos de moi">
@@ -24,28 +24,135 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Histoire</h2>
 				<div class="content">
 					<p>
-						Depuis mon plus jeune âge, ma passion pour les ordinateurs et les jeux vidéo a été une constante dans ma vie. Ce qui a commencé comme un simple loisir s'est rapidement transformé en une fascination profonde pour le fonctionnement des logiciels et des systèmes informatiques. Chaque moment passé devant l'écran était une opportunité d'apprendre, d'explorer et de repousser les limites de ma compréhension.
+						Depuis mon plus jeune âge, ma passion pour les
+						ordinateurs et les jeux vidéo a été une constante dans
+						ma vie. Ce qui a commencé comme un simple loisir s'est
+						rapidement transformé en une fascination profonde pour
+						le fonctionnement des logiciels et des systèmes
+						informatiques. Chaque moment passé devant l'écran était
+						une opportunité d'apprendre, d'explorer et de repousser
+						les limites de ma compréhension.
 					</p>
 					<p>
-						Avec le temps, cette passion est devenue le moteur de ma formation en développement de logiciels. Guidé par un désir ardent de créer et d'innover, j'ai entrepris un voyage d'apprentissage continu, acquérant des compétences techniques et une expertise dans le domaine du développement logiciel.
+						Avec le temps, cette passion est devenue le moteur de ma
+						formation en développement de logiciels. Guidé par un
+						désir ardent de créer et d'innover, j'ai entrepris un
+						voyage d'apprentissage continu, acquérant des
+						compétences techniques et une expertise dans le domaine
+						du développement logiciel.
 					</p>
 					<p>
-						Aujourd'hui, cette passion qui a germé dans mon enfance continue de m'inspirer, me motivant à relever de nouveaux défis et à contribuer de manière significative au monde de la technologie.
+						Aujourd'hui, cette passion qui a germé dans mon enfance
+						continue de m'inspirer, me motivant à relever de
+						nouveaux défis et à contribuer de manière significative
+						au monde de la technologie.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Éducation</h2>
 				<div class="content">
-					<p>J'ai entrepris une <strong>Licence professionnelle</strong> à l'Institut National de la Poste des Technologies de l’Information et la Communication, un parcours que je poursuis actuellement. Précédemment, j'ai obtenu un <strong>Diplôme de Technicien Supérieur</strong> dans le même établissement, couvrant la période de <strong>2022</strong> à <strong>2023</strong>. Mon parcours académique a débuté avec l'obtention de mon <strong>Baccalauréat</strong> en 2020 au Lycée Notre Dame de Quaben.</p>
+					<p>
+						J'ai récemment obtenu une <strong
+							>Licence professionnelle</strong
+						> à l'Institut National de la Poste des Technologies de l’Information
+						et de la Communication (INPTIC). Auparavant, j'avais déjà complété
+						un <strong>Diplôme de Technicien Supérieur</strong> dans
+						la même institution durant la période de <strong
+							>2022</strong
+						> à <strong>2023</strong>. Mon parcours académique a
+						débuté avec l'obtention de mon <strong
+							>Baccalauréat</strong
+						> en 2020 au Lycée Notre Dame de Quaben.
+					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					
+					<div class="image-grid">
+						<img
+							width="70"
+							height="70"
+							src="/assets/icons8-github-375.png"
+							alt="Skill 2"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/bootstrap.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/js.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/firbase.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/php.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/python.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/icons8-battement-240.png"
+							alt="Skill 1"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/reactt.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/unity.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/cs.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/cpp.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/wp.png"
+							alt="Skill 3"
+						/>
+						<img
+							width="70"
+							height="70"
+							src="/assets/ff.png"
+							alt="Skill 3"
+						/>
+					</div>
 				</div>
 			</section>
+			<section></section>
 		</main>
 
 		<ContactCTA />
@@ -91,6 +198,18 @@ import Hero from '../components/Hero.astro';
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+	.image-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		gap: 10px; /* Espace entre les images */
+		justify-content: center; /* Centre les images horizontalement */
+	}
+
+	.image-grid img {
+		max-width: 100%;
+		height: 70px;
+		width: 70px;
 	}
 
 	@media (min-width: 50em) {

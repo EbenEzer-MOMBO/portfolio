@@ -15,12 +15,12 @@ tags:
 
 
 
-Dans un monde en constante évolution, l'éducation n'échappe pas à la révolution numérique. Au Lycée EPI Oloumi, une avancée significative a été réalisée avec l'implémentation d'une application novatrice de gestion de présence. Cette solution, déjà opérationnelle au sein de notre établissement, ouvre la voie à une gestion scolaire plus efficace et moderne, promettant une amélioration significative du suivi des élèves et de leur présence.
+Dans un monde en constante évolution, l'éducation n'échappe pas à la révolution numérique. Au Lycée EPI Nzeng, une avancée significative a été réalisée avec l'implémentation d'une application novatrice de gestion de présence. Cette solution, déjà opérationnelle au sein de notre établissement, ouvre la voie à une gestion scolaire plus efficace et moderne, promettant une amélioration significative du suivi des élèves et de leur présence.
 
 
 #### Une Application Adaptée aux Besoins Scolaires
 
-Conçue sur mesure pour répondre aux exigences spécifiques du milieu éducatif, cette application révolutionnaire vise à simplifier la tâche ardue de la gestion des présences. Son déploiement initial au Lycée EPI Oloumi a démontré son potentiel transformateur, libérant les enseignants et le personnel administratif des tâches fastidieuses liées au suivi manuel des absences.
+Conçue sur mesure pour répondre aux exigences spécifiques du milieu éducatif, cette application révolutionnaire vise à simplifier la tâche ardue de la gestion des présences. Son déploiement initial au Lycée EPI Nzeng a démontré son potentiel transformateur, libérant les enseignants et le personnel administratif des tâches fastidieuses liées au suivi manuel des absences.
 
 #### Automatisation et Précision
 
@@ -30,4 +30,6 @@ L'un des principaux atouts de cette application est son système d'automatisatio
 
 #### Perspectives d'Avenir
 
-Forts de notre expérience réussie au Lycée EPI Oloumi, nous envisageons désormais d'étendre l'utilisation de cette application à d'autres établissements scolaires. Notre objectif est de partager cette innovation avec le plus grand nombre, contribuant ainsi à améliorer la gestion scolaire et à garantir un environnement d'apprentissage optimal pour tous les élèves.
+Forts de notre expérience réussie au Lycée EPI Nzeng, nous envisageons désormais d'étendre l'utilisation de cette application à d'autres établissements scolaires. Notre objectif est de partager cette innovation avec le plus grand nombre, contribuant ainsi à améliorer la gestion scolaire et à garantir un environnement d'apprentissage optimal pour tous les élèves.
+
+><a href="https://gestion-presence.flutterflow.app/" target="_blank">Consulter le site web</a>
